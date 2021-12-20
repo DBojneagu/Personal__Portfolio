@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "SF-Pro";
+  src: url(/SF-Pro.dmg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.Title {
+  margin-left: 100px;
+  height: 1px;
+  weight: 1px;
+  margin-top: 300px;
+  font-size: 40px;
+  color: black;
+  font-family: "SF-Pro", sans-serif;
+}
+.description__text {
+  display: block;
+  background-color: white;
+  font-size: 25px;
+  margin-left: 100px;
+  color: black;
+  margin-top: 70px;
+  font-family: "SF-Pro", sans-serif;
+  width: 30%;
+}
+model-viewer {
+  --poster-color: transparent;
+  margin-left: 1000px;
+  margin-top: -19%;
+  width: 800px;
+  height: 400px;
+}
+
+.progress-bar {
+  display: none;
+  visibility: hidden;
+}
+
+.nav__bar {
+  display: flex;
+  background-color: white;
+  margin-left: 50%;
+  margin-top: 10px;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "SF-Pro", sans-serif;
+}
+
+.nav__ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav__li {
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__ul a:hover {
+  color: rgb(7, 105, 204);
+}
+
+.CV__button {
+  border: 0;
+  background-color: rgb(7, 105, 204);
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  border-radius:10%;
+  
+}
+
+.CV__button:hover {
+  transform: scale(1.03);
+  transition: all 1s ease-in;
+  cursor:pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "SF-Pro", sans-serif;
+  letter-spacing: 1.5px;
+  
+}
+
+.Projects__firstp {
+  margin-top: 15%;
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family:"SF-Pro", sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+
+.cards {
+  background: white;
+  width: 270px;
+  height: 520px;
+  margin:50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  
+}
+
+.card-image {
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.CAR { 
+   background-image: url(./background.png);
+}
+
+.cards h2 {
+
+  font-family: "SF-Pro", sans-serif;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.cards p {
+  font-family: "SF-Pro", sans-serif;
+  padding: 27px 25px;
+  text-align: center;
+
+}
+
+.cards a {
+  padding:10px 15px;
+  margin: 10px 10px 10px 37px ;
+  font-family: "SF-Pro", sans-serif;
+  font-size: 18px;
+  border-radius:15%;
+  
+ 
+}
+
+.cards:hover{
+  transform:scale(1.03);
+  transition: all 1s ease;
+  
+}
+
+.CAR2 {
+  background-image: url(./background.png);
+}
+
+.CAR3 {
+  background-image: url(./background.png);
+}
+
+.Demo {
+
+  border: 0;
+  background-color: rgb(7, 105, 204);
+  text-decoration: none;
+  margin-left: 70px;
+  margin-top: 00px;
+  width: 100px;
+  height: 40px;
+  color:white;
+  cursor:pointer;
+
+}
+
+.Code {
+
+  border: 0;
+  background-color: rgb(7, 105, 204);
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  color:white;
+  cursor:pointer;
+
+}
