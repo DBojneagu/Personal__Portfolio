@@ -167,7 +167,7 @@ button a {
 }
 
 .CAR2 {
-  background-image: url(./background.png);
+  background-image: url(./AdobeStock_135663532-825x510.jpeg);
 }
 
 .CAR3 {
@@ -201,3 +201,17 @@ button a {
   cursor:pointer;
 
 }
+
+.Code2 {
+
+  border: 0;
+  background-color: rgb(7, 105, 204);
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  color:white;
+  cursor:pointer;
+
+}
+
+
