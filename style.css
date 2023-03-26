@@ -79,14 +79,13 @@ model-viewer {
   margin-top: 50px;
   width: 100px;
   height: 40px;
-  border-radius:10%;
-  
+  border-radius: 10%;
 }
 
 .CV__button:hover {
   transform: scale(1.03);
   transition: all 1s ease-in;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 button a {
@@ -95,7 +94,6 @@ button a {
   font-size: 20px;
   font-family: "SF-Pro", sans-serif;
   letter-spacing: 1.5px;
-  
 }
 
 .Projects__firstp {
@@ -103,7 +101,7 @@ button a {
   background-color: white;
   text-align: center;
   font-size: 50px;
-  font-family:"SF-Pro", sans-serif;
+  font-family: "SF-Pro", sans-serif;
 }
 
 .container {
@@ -113,25 +111,22 @@ button a {
   margin-left: 35px;
 }
 
-
 .cards {
   background: white;
   width: 270px;
   height: 520px;
-  margin:50px;
+  margin: 50px;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-  
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
 }
 
 .cards2 {
   background: white;
   width: 270px;
   height: 520px;
-  margin:50px;
+  margin: 50px;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-  
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
 }
 
 .card-image {
@@ -141,84 +136,69 @@ button a {
   border-radius: 20px 20px 0 0;
 }
 
-.CAR { 
-   background-image: url(./162742253-f89ab703-049e-4ac0-a4ea-4e87bb25042b.png)
+.CAR {
+  background-image: url(./hand-drawn-flat-people-talking_52683-70233.avif);
 }
 
 .cards h2 {
-
   font-family: "SF-Pro", sans-serif;
   padding: 10px;
   text-align: center;
-  
 }
 
 .cards p {
   font-family: "SF-Pro", sans-serif;
   padding: 27px 25px;
   text-align: center;
-
 }
 
 .cards2 h2 {
-
   font-family: "SF-Pro", sans-serif;
   padding: 10px;
   text-align: center;
-  
 }
 
 .cards2 p {
   font-family: "SF-Pro", sans-serif;
   padding: 27px 25px;
   text-align: center;
-
 }
 
-
 .cards a {
-  padding:10px 15px;
-  margin: 10px 10px 10px 37px   ;
+  padding: 10px 15px;
+  margin: 10px 10px 10px 37px;
   font-family: "SF-Pro", sans-serif;
   font-size: 18px;
-  border-radius:15%;
-  
- 
+  border-radius: 15%;
 }
 
 .cards2 a {
-  padding:10px 15px;
-  margin-left: 100px   ;
-  font-family:  sans-serif;
+  padding: 10px 15px;
+  margin-left: 100px;
+  font-family: sans-serif;
   font-size: 18px;
-  border-radius:15%;
-  
- 
+  border-radius: 15%;
 }
 
-
-.cards:hover{
-  transform:scale(1.03);
+.cards:hover {
+  transform: scale(1.03);
   transition: all 1s ease;
-  
 }
 
-.cards2:hover{
-  transform:scale(1.03);
+.cards2:hover {
+  transform: scale(1.03);
   transition: all 1s ease;
-  
 }
 
 .CAR2 {
-  background-image: url(./AdobeStock_135663532-825x510.jpeg);
+  background-image: url(./ef648fe0c7232614bbdef5870c5d8eab.jpg);
 }
 
 .CAR3 {
-  background-image: url(./SD\ project_5.jpg);
+  background-image: url(./0_ZB2nVJjipU4repVb);
 }
 
 .Demo {
-
   border: 0;
   background-color: rgb(7, 105, 204);
   text-decoration: none;
@@ -226,13 +206,11 @@ button a {
   margin-top: 00px;
   width: 100px;
   height: 40px;
-  color:white;
-  cursor:pointer;
-
+  color: white;
+  cursor: pointer;
 }
 
 .Code {
-
   border: 0;
   background-color: rgb(7, 105, 204);
   text-decoration: none;
@@ -240,21 +218,16 @@ button a {
   margin-top: 50px;
   width: 100px;
   height: 40px;
-  color:white;
-  cursor:pointer;
-
+  color: white;
+  cursor: pointer;
 }
 
 .Code2 {
-
   border: 0;
   background-color: rgb(7, 105, 204);
   text-decoration: none;
   width: 100px;
   height: 40px;
-  color:white;
-  cursor:pointer;
-
+  color: white;
+  cursor: pointer;
 }
-
-
